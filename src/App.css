@@ -1,38 +1,108 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lato&display=swap');
+body{
+    font-family: 'Bree Serif', serif;
+    
 }
+.about{
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  background-color: black !important;
+  height:70vh;
+
 }
+.title{
+  color:white;
+  height:250px;
+text-transform: uppercase;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+}
+.title h3{
+  font-size:40px;
+  text-align:center;
+  margin-top:50px;
+}
+.title h1{
+  font-size:50px;
+  text-align:center;
+  color:#FF724C;
+ 
+ 
+}
+.about_middle{
+
+  text-align: left;
+  font-size: 45px;
+  letter-spacing: 1.62px;
+  text-transform: uppercase;
+
+}
+.about_middle span {
+
+color:#FF724C;
+}
+.about_middle_para {
+  font-size: 16px;
+ 
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+.about_msg{
+  width: 600px;
+  padding-left: 100px;
+  
 
-.App-link {
-  color: #61dafb;
+}img.img-fluid.group1236.m-5 {
+  width: 400px;
+  height: 500px;
 }
+img.img-fluid.group.m-5 {
+  width: 500px;
+  height: 339px;
+}
+.about_reachus{
+ background-color:black;
+padding:50px 0px;
+  color:white;
+  text-align:center;
+  
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+}
+.about_middle_reachus{
+  font-size: 35px;
+  letter-spacing: 1.62px;
+  text-transform: uppercase;
+}
+.about_middle_reachus span {
+
+  color:#FF724C;
   }
-  to {
-    transform: rotate(360deg);
+ .about_middle_reachus_para{
+    font-family: 'Lato', sans-serif;
   }
+  .btn-light:hover {
+    color: #f8f9fa;
+    background-color: black;
+    border-color: #f9fafb;
+}
+.btn-light {
+  color: #f8f9fa;
+  background-color: black;
+  border-color: #f9fafb;
+  width: 150px;
+  height: 50px;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  
+}
+hr {
+  transform: rotate(90deg);
+  height:50px;
+}
+.justify-content-evenly {
+  flex-wrap: wrap;
+}
+.service_middle_title{
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+
 }
